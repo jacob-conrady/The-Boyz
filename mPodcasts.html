@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -147,9 +148,7 @@ window.onunload=savemenustate
 
 
 
-
-
-
+<head>
 <style>
 body {
     font-family: "Lato", sans-serif;
@@ -171,7 +170,7 @@ body {
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 65px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -194,6 +193,10 @@ body {
   .sidenav a {font-size: 18px;}
 }
 </style>
+</head>
+
+
+
 
 <style>
 /***********************************************
@@ -267,9 +270,12 @@ body
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="index.html">Home</a>
-  <a href="Podcasts.html">Podcasts</a>
-  <a href="Contacts.html">Contacts</a>
+  <a href="mPod.html">Home</a>
+  <a href="mPodcasts.html">Podcasts</a>
+
+  <a href="mContacts.html">Contacts</a>
+  <a href="index.html">Desktop</a>
+
 </div>
 
 
@@ -288,8 +294,12 @@ body
 
 <center><div id="masterdiv">
 
-	<div class="menutitle" onclick="SwitchMenu('sub1')">Test</div>
+	<font size="6"><div class="menutitle" onclick="SwitchMenu('sub1')">Test</div></font>
 	<span class="submenu" id="sub1">
+
+    <center><div id="font" class="header">
+    <a href="">A test song: Quaddeca - Wii Music Fire</a>
+    </div></center>
 
     <center><audio controls>
       <source src="test.ogg" type="audio/ogg">
