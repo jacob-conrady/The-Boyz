@@ -1,0 +1,7 @@
+public class the_Boyz{
+  public static void main(){
+  int x=0;
+  String str = "The boyz"
+  print(str)
+}
+}
